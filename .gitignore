@@ -1,11 +1,11 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-# Other files and folders
-.settings/
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
