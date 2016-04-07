@@ -10,7 +10,7 @@ $album_id = 18896;
 
 //返回搜索结果
 //传入参数（搜索内容，返回的条数，偏移量）
-$result = $api->search($keyword, 1, 0);
+$result = $api->search($keyword, 10, 0);
 
 //返回歌曲详情
 $detail = $api->detail($song_id);

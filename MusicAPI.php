@@ -16,7 +16,7 @@ class MusicAPI
      *
      * @return JSON
      */
-    public function search($s='tobu', $limit=30, $offset=0)
+    public function search($s=null, $limit=30, $offset=0)
     {
         $url = 'http://music.163.com/api/search/get';
         $data = 's='.$s.'&limit='.$limit.'&type=1&offset='.$offset.'';
